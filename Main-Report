@@ -1,0 +1,40 @@
+🕵️‍♂️ Digital Forensics & OSINT: Image Metadata Analysis
+
+This project demonstrates a digital forensics and open-source intelligence (OSINT) investigation using ExifTool and Yandex Reverse Image Search. The objective was to extract actionable intelligence from two image files provided as part of a forensic challenge.
+
+🛠️ Tools Used
+
+ExifTool – for extracting image metadata
+Yandex Reverse Image Search – for identifying visual matches
+Online Maps & Coordinate Tools – for interpreting and validating GPS data
+🔍 Investigation Process
+
+1. Metadata Extraction with ExifTool
+I examined the first image using exiftool, revealing key data:
+
+Camera Model: Canon EOS 550D
+Timestamp: 2021:11:02 13:20:23
+User Comment: "relying on altered metadata to catch me?"
+GPS Coordinates: 32°40'3.87" S, 279°29'31.87" W
+2. Analyzing Metadata Clues
+The GPS coordinates fell outside valid ranges (longitude > 180°), indicating spoofed data.
+However, the timestamp and camera details were valid and relevant.
+3. Reverse Image Search (Yandex)
+The second image lacked GPS metadata, so I used Yandex Reverse Image Search:
+
+Uploaded the image to Yandex.
+Analyzed visual matches (architecture, landscape, context).
+Multiple matches pointed to Kathmandu, Nepal.
+
+
+🧠 Findings Summary
+Camera Model	Canon EOS 550D
+Date Image Taken	2021:11:02 13:20:23
+Image Comment (1st Image)	"relying on altered metadata..."
+Suspected Location	Kathmandu, Nepal
+
+✅ Skills Demonstrated
+CLI-based metadata extraction & analysis
+Identification of GPS spoofing attempts
+OSINT skills using visual search techniques
+Analytical reasoning & attention to detail
