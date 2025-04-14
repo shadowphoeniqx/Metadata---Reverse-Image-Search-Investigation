@@ -2,12 +2,13 @@
 
 This repository contains a step-by-step walkthrough of how I used **ExifTool** and **Yandex Reverse Image Search** to analyze two image files in a digital forensics challenge. The goal was to extract valuable intelligence from seemingly benign media files.
 
-## 📁 Files in This Repository
+## 📁 Files in This Repository 
+
 - `uploaded_1.JPG` – Image with altered metadata
 - `uploaded_2.JPG` – Image used for reverse image search
 - `Final_Report.md` – Full write-up of findings and methods
 
-> 🔽 **Download the files above** to follow the steps locally.
+> 🔽 **Download the files above** to follow the steps locally password is btlo.
 
 ---
 
